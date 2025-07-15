@@ -34,7 +34,7 @@ export default function HomePage() {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/hometravel.jpg?height=1080&width=1920"
             alt="Stunning landscape view from a mountain peak at golden hour"
             fill
             className="object-cover"
@@ -76,7 +76,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
               <div className="aspect-[4/3] relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/flower.jpg?height=400&width=600"
                   alt="Diverse collection of travel photography and written work samples"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -99,7 +99,7 @@ export default function HomePage() {
             <div className="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 group-hover:scale-105">
               <div className="aspect-[4/3] relative">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/service.jpg?height=400&width=600"
                   alt="Professional consultation meeting with travel brand materials"
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-110"

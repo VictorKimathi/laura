@@ -11,7 +11,7 @@ const mediaFeatures = [
     title: "Featured Interview: The Art of Slow Travel",
     publication: "Wanderlust Magazine",
     date: "October 2023",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/media.jpg?height=200&width=300",
     alt: "Laura Cotto being interviewed for Wanderlust Magazine",
     link: "#", // Placeholder link
   },
@@ -20,7 +20,7 @@ const mediaFeatures = [
     title: "Guest Post: Sustainable Adventures in the Amazon",
     publication: "EcoTraveler Blog",
     date: "September 2023",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/media.jpg?height=200&width=300",
     alt: "Article about sustainable travel in the Amazon rainforest",
     link: "#", // Placeholder link
   },
@@ -29,7 +29,7 @@ const mediaFeatures = [
     title: "Podcast Appearance: Cultural Immersion in Southeast Asia",
     publication: "The Nomadic Life Podcast",
     date: "August 2023",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/media.jpg?height=200&width=300",
     alt: "Podcast cover art with Laura Cotto as a guest",
     link: "#", // Placeholder link
   },
@@ -38,7 +38,7 @@ const mediaFeatures = [
     title: "Photography Showcase: Faces of Marrakech",
     publication: "National Geographic Traveler",
     date: "July 2023",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/media.jpg?height=200&width=300",
     alt: "Photography feature on the people of Marrakech",
     link: "#", // Placeholder link
   },
@@ -47,7 +47,7 @@ const mediaFeatures = [
     title: "Panel Discussion: The Future of Responsible Tourism",
     publication: "Global Travel Summit",
     date: "June 2023",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "/media.jpg?height=200&width=300",
     alt: "Panel discussion on responsible tourism at a summit",
     link: "#", // Placeholder link
   },
@@ -76,7 +76,7 @@ export default function MediaPressPage() {
             {mediaFeatures.map((feature) => (
               <div key={feature.id} className="bg-gray-50 rounded-lg shadow-md overflow-hidden">
                 <div className="aspect-[3/2] relative">
-                  <Image src={feature.image || "/placeholder.svg"} alt={feature.alt} fill className="object-cover" />
+                  <Image src={feature.image || "/media.jpg"} alt={feature.alt} fill className="object-cover" />
                 </div>
                 <div className="p-6">
                   <h2 className="font-serif text-xl font-medium text-gray-800 mb-2">{feature.title}</h2>

@@ -19,7 +19,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
             <div className="aspect-[3/4] relative rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+                src="/laurafemale.png?height=800&width=600"
                 alt="Laura Michelle Cotto photographing local artisans in a traditional market setting"
                 fill
                 className="object-cover"

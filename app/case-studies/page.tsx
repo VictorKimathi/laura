@@ -11,7 +11,7 @@ const caseStudies = [
     title: "Revitalizing Tourism in Rural Peru",
     excerpt:
       "A deep dive into a project focused on developing sustainable tourism initiatives in remote Andean communities, empowering local artisans and preserving cultural heritage.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/case.jpg?height=400&width=600",
     alt: "Local Peruvian women in traditional attire showcasing handicrafts",
     slug: "rural-peru-tourism",
   },
@@ -20,7 +20,7 @@ const caseStudies = [
     title: "Crafting a Narrative for Eco-Luxury Resorts in Bali",
     excerpt:
       "How strategic storytelling and visual content transformed the brand perception of a chain of eco-luxury resorts, attracting conscious travelers seeking immersive nature experiences.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/case.jpg?height=400&width=600",
     alt: "Luxurious eco-resort villa surrounded by lush Balinese rice paddies",
     slug: "bali-eco-luxury",
   },
@@ -29,7 +29,7 @@ const caseStudies = [
     title: "Promoting Authentic Food Experiences in Vietnam",
     excerpt:
       "A case study on a campaign designed to highlight Vietnam's diverse culinary landscape, focusing on street food culture and farm-to-table initiatives.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/case.jpg?height=400&width=600",
     alt: "Vibrant Vietnamese street food stall with various dishes",
     slug: "vietnam-food-culture",
   },
@@ -38,7 +38,7 @@ const caseStudies = [
     title: "Documenting Wildlife Conservation in Madagascar",
     excerpt:
       "An in-depth look at a project involving photography and writing to raise awareness for endangered species and conservation efforts in Madagascar's unique ecosystems.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/case.jpg?height=400&width=600",
     alt: "Lemur in its natural habitat in Madagascar rainforest",
     slug: "madagascar-conservation",
   },
@@ -69,7 +69,7 @@ export default function CaseStudiesPage() {
                 <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:transform group-hover:scale-105">
                   <div className="aspect-[3/2] relative overflow-hidden">
                     <Image
-                      src={study.image || "/placeholder.svg"}
+                      src={study.image || "/case.jpg"}
                       alt={study.alt}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-110"

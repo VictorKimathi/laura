@@ -10,7 +10,7 @@ import Breadcrumbs from "@/components/breadcrumbs"
 const workSamples = [
   {
     id: 1,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/oceanview.jpg?height=800&width=1200",
     alt: "A vibrant street scene in Havana, Cuba, showcasing colorful colonial buildings and classic cars.",
     title: "Havana's Timeless Charm",
     category: "Photography, Travel Writing",
@@ -18,7 +18,7 @@ const workSamples = [
   },
   {
     id: 2,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/oceanview.jpg?height=800&width=1200",
     alt: "A close-up of intricate traditional textiles being woven by an artisan in Cusco, Peru.",
     title: "Artisanal Traditions of Peru",
     category: "Photography, Cultural Immersion",
@@ -26,7 +26,7 @@ const workSamples = [
   },
   {
     id: 3,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/oceanview.jpg?height=800&width=1200",
     alt: "A serene shot of a sustainable eco-lodge nestled in the rainforest canopy of Costa Rica.",
     title: "Eco-Tourism in Costa Rica",
     category: "Consulting, Travel Writing",
@@ -34,7 +34,7 @@ const workSamples = [
   },
   {
     id: 4,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/oceanview.jpg?height=800&width=1200",
     alt: "A bustling night market in Chiang Mai, Thailand, with various food stalls and local crafts.",
     title: "Flavors of Northern Thailand",
     category: "Photography, Food Writing",
@@ -42,7 +42,7 @@ const workSamples = [
   },
   {
     id: 5,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/oceanview.jpg?height=800&width=1200",
     alt: "A wide shot of the dramatic landscapes of Patagonia, Argentina, with towering mountains and glacial lakes.",
     title: "Patagonia: Land of Giants",
     category: "Photography, Adventure Travel",
@@ -50,7 +50,7 @@ const workSamples = [
   },
   {
     id: 6,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/oceanview.jpg?height=800&width=1200",
     alt: "A local fisherman casting his net at sunrise on the coast of Zanzibar, Tanzania.",
     title: "Zanzibar's Coastal Life",
     category: "Photography, Cultural Storytelling",
@@ -112,7 +112,7 @@ export default function PortfolioPage() {
               >
                 <div className="aspect-[4/3] relative">
                   <Image
-                    src={sample.src || "/placeholder.svg"}
+                    src={sample.src || "/oceanview.jpg"}
                     alt={sample.alt}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-110"
@@ -159,7 +159,7 @@ export default function PortfolioPage() {
           <div className="max-w-4xl max-h-full flex flex-col items-center">
             <div className="relative max-h-[80vh] w-full">
               <Image
-                src={selectedSampleData.src || "/placeholder.svg"}
+                src={selectedSampleData.src || "/oceanview.jpg"}
                 alt={selectedSampleData.alt}
                 width={1200}
                 height={800}

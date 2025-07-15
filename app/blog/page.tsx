@@ -10,7 +10,7 @@ const blogCategories = [
     id: "travel-stories",
     title: "Travel Stories",
     description: "Immersive narratives from my journeys around the world, celebrating cultures and experiences.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/flower.jpg?height=400&width=600",
     alt: "Open travel journal with a pen and a map, symbolizing storytelling",
     icon: <BookOpen className="w-6 h-6 text-amber-600" />,
   },
@@ -18,7 +18,7 @@ const blogCategories = [
     id: "cultural-guides",
     title: "Cultural Guides",
     description: "Deep dives into local traditions, customs, and etiquette for a richer travel experience.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/flower.jpg?height=400&width=600",
     alt: "Traditional cultural artifacts from various regions",
     icon: <MapPin className="w-6 h-6 text-amber-600" />,
   },
@@ -26,7 +26,7 @@ const blogCategories = [
     id: "travel-tips",
     title: "Travel Tips & Advice",
     description: "Practical advice, packing lists, and insights for planning your next sustainable adventure.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/flower.jpg?height=400&width=600",
     alt: "Travel essentials like a passport, camera, and map on a wooden table",
     icon: <Lightbulb className="w-6 h-6 text-amber-600" />,
   },
@@ -34,7 +34,7 @@ const blogCategories = [
     id: "behind-the-scenes",
     title: "Behind the Scenes",
     description: "A look into the life of a travel writer and photographer, from challenges to triumphs.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/flower.jpg?height=400&width=600",
     alt: "Camera gear and a laptop on a desk, representing creative work",
     icon: <Lightbulb className="w-6 h-6 text-amber-600" />, // Reusing Lightbulb for now
   },
@@ -65,7 +65,7 @@ export default function BlogPage() {
                 <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:transform group-hover:scale-105">
                   <div className="aspect-[4/3] relative overflow-hidden">
                     <Image
-                      src={category.image || "/placeholder.svg"}
+                      src={category.image || "/flower.jpg"}
                       alt={category.alt}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
