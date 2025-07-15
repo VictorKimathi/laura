@@ -11,10 +11,16 @@ export default function Header() {
 
   const navigation = [
     { name: "Home", href: "/" },
-    { name: "Photography", href: "/photography" },
-    { name: "Travel Stories", href: "/travel-stories" },
-    { name: "Consulting", href: "/consulting" },
     { name: "About", href: "/about" },
+    { name: "Portfolio", href: "/portfolio" },
+    { name: "Services", href: "/services" },
+    { name: "Contact", href: "/contact" },
+    { name: "Testimonials", href: "/testimonials" },
+    { name: "Blog", href: "/blog" },
+    { name: "FAQ", href: "/faq" },
+    { name: "Resume", href: "/resume" },
+    { name: "Media", href: "/media" },
+    { name: "Case Studies", href: "/case-studies" },
   ]
 
   return (
