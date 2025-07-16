@@ -62,8 +62,8 @@ export default function BlogPage() {
           {/* Blog Categories Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {blogCategories.map((category) => (
-              <Link key={category.id} href={`/blog/${category.id}`} className="group block">
-                <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:transform group-hover:scale-105">
+              // <Link key={category.id} href={`/blog/${category.id}`} className="group block">
+                <article key={category.id}  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:transform group-hover:scale-105">
                   <div className="aspect-[4/3] relative overflow-hidden">
                     <Image
                       src={category.image}
@@ -87,7 +87,7 @@ export default function BlogPage() {
                     <p className="text-gray-600 leading-relaxed">{category.description}</p>
                   </div>
                 </article>
-              </Link>
+              // </Link>
             ))}
           </div>
         </div>

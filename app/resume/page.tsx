@@ -17,36 +17,64 @@ export default function ResumePage() {
           <div className="text-center mb-16">
             <h1 className="font-serif text-4xl md:text-6xl text-gray-800 mb-6">Resume & CV</h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              A detailed overview of my professional experience, skills, and qualifications in travel writing,
-              photography, and brand consulting.
+              A comprehensive summary of my professional background, technical skills, education, and career achievements.
             </p>
           </div>
 
+          {/* Resume Content */}
           <div className="max-w-4xl mx-auto bg-gray-50 rounded-lg p-8 md:p-12 shadow-md">
             <h2 className="font-serif text-3xl font-medium text-gray-800 mb-6 text-center">My Professional Journey</h2>
 
-            <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed space-y-6">
-              <p>
-                With over a decade of experience in the travel industry, I have honed my skills in crafting compelling
-                narratives, capturing evocative imagery, and developing strategic content for diverse platforms. My work
-                is driven by a passion for authentic cultural exchange and a commitment to promoting sustainable travel
-                practices.
-              </p>
-              <p>
-                My expertise spans editorial writing for leading travel publications, visual content creation for
-                tourism boards, and strategic consulting for travel brands seeking to connect with a global audience. I
-                am adept at research, interviewing, project management, and delivering high-quality content that
-                inspires and informs.
-              </p>
-              <p>
-                For a comprehensive look at my professional background, including detailed experience, education,
-                awards, and key skills, please download my full Resume/CV.
-              </p>
+            <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed space-y-8">
+              <section>
+                <h3 className="text-2xl font-semibold mb-2">Experience</h3>
+                <ul>
+                  <li>
+                    <strong>Software Engineer</strong> at TechWave Solutions (2021 - Present)<br />
+                    - Developed scalable web applications with React & Node.js.<br />
+                    - Led team initiatives to improve code quality and performance by 30%.
+                  </li>
+                  <li>
+                    <strong>Frontend Developer Intern</strong> at Pixel Dynamics (2020 - 2021)<br />
+                    - Implemented responsive UI components using Tailwind CSS.<br />
+                    - Collaborated on API integrations with backend teams.
+                  </li>
+                </ul>
+              </section>
+
+              <section>
+                <h3 className="text-2xl font-semibold mb-2">Education</h3>
+                <ul>
+                  <li>B.Sc. Computer Science, Egerton University, Kenya (Expected 2026)</li>
+                </ul>
+              </section>
+
+              <section>
+                <h3 className="text-2xl font-semibold mb-2">Skills</h3>
+                <ul className="grid grid-cols-2 gap-x-4">
+                  <li>JavaScript / TypeScript</li>
+                  <li>React & Next.js</li>
+                  <li>Node.js & Express</li>
+                  <li>REST & GraphQL APIs</li>
+                  <li>Tailwind CSS</li>
+                  <li>Git & CI/CD</li>
+                  <li>SQL & NoSQL Databases</li>
+                  <li>Unit & Integration Testing</li>
+                </ul>
+              </section>
+
+              <section>
+                <h3 className="text-2xl font-semibold mb-2">Certifications</h3>
+                <ul>
+                  <li>Certified Kubernetes Application Developer (CKAD) - 2025</li>
+                  <li>Google Associate Cloud Engineer - 2024</li>
+                </ul>
+              </section>
             </div>
 
             <div className="mt-12 text-center">
               <Button asChild className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 text-lg">
-                <a href="/placeholder.pdf" download="Laura_Cotto_Resume.pdf" aria-label="Download Resume PDF">
+                <a href="/Laura_Cotto_Resume.pdf" download="Laura_Cotto_Resume.pdf" aria-label="Download Resume PDF">
                   <Download className="w-5 h-5 mr-2" />
                   Download Full Resume (PDF)
                 </a>
