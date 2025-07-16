@@ -48,7 +48,7 @@ export default function HomePage() {
         >
           <h1 className="font-serif text-5xl md:text-7xl font-light tracking-wide mb-6">LAURA MICHELLE COTTO</h1>
           <p className="text-xl md:text-2xl font-light tracking-wider mb-8 max-w-2xl mx-auto">
-            Travel Writer, Photographer, Consultant
+          Inspire. Inform. Convert.
           </p>
           <p className="text-lg md:text-xl font-light max-w-3xl mx-auto leading-relaxed">
             Capturing authentic stories and sustainable adventures from around the world
