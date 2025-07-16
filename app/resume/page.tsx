@@ -17,66 +17,83 @@ export default function ResumePage() {
           <div className="text-center mb-16">
             <h1 className="font-serif text-4xl md:text-6xl text-gray-800 mb-6">Resume & CV</h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              A comprehensive summary of my professional background, technical skills, education, and career achievements.
+              A detailed overview of my professional experience, skills, and qualifications in travel writing,
+              lifestyle content, and brand consulting.
             </p>
           </div>
 
-          {/* Resume Content */}
           <div className="max-w-4xl mx-auto bg-gray-50 rounded-lg p-8 md:p-12 shadow-md">
             <h2 className="font-serif text-3xl font-medium text-gray-800 mb-6 text-center">My Professional Journey</h2>
 
-            <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed space-y-8">
-              <section>
-                <h3 className="text-2xl font-semibold mb-2">Experience</h3>
-                <ul>
-                  <li>
-                    <strong>Software Engineer</strong> at TechWave Solutions (2021 - Present)<br />
-                    - Developed scalable web applications with React & Node.js.<br />
-                    - Led team initiatives to improve code quality and performance by 30%.
-                  </li>
-                  <li>
-                    <strong>Frontend Developer Intern</strong> at Pixel Dynamics (2020 - 2021)<br />
-                    - Implemented responsive UI components using Tailwind CSS.<br />
-                    - Collaborated on API integrations with backend teams.
-                  </li>
-                </ul>
-              </section>
+            <div className="prose prose-lg mx-auto text-gray-700 leading-relaxed space-y-6">
 
-              <section>
-                <h3 className="text-2xl font-semibold mb-2">Education</h3>
-                <ul>
-                  <li>B.Sc. Computer Science, Egerton University, Kenya (Expected 2026)</li>
-                </ul>
-              </section>
+              <h3>Laura Michelle Cotto</h3>
+              <p>6926 Kimberly Heights Ln.<br />
+              Jacksonville, FL 32222-1761<br />
+              (206) 249-9023<br />
+              laura87michelle@gmail.com</p>
 
-              <section>
-                <h3 className="text-2xl font-semibold mb-2">Skills</h3>
-                <ul className="grid grid-cols-2 gap-x-4">
-                  <li>JavaScript / TypeScript</li>
-                  <li>React & Next.js</li>
-                  <li>Node.js & Express</li>
-                  <li>REST & GraphQL APIs</li>
-                  <li>Tailwind CSS</li>
-                  <li>Git & CI/CD</li>
-                  <li>SQL & NoSQL Databases</li>
-                  <li>Unit & Integration Testing</li>
-                </ul>
-              </section>
+              <h3>Professional Profile</h3>
+              <p>
+                Travel copywriter with 10+ years of experience producing engaging, SEO-optimized content 
+                for digital audiences. Known for turning cultural insights and destination research into dynamic, 
+                reader-focused narratives that inspire, inform, and convert. Strong background in lifestyle writing, 
+                hospitality marketing, and editorial planning.
+              </p>
 
-              <section>
-                <h3 className="text-2xl font-semibold mb-2">Certifications</h3>
-                <ul>
-                  <li>Certified Kubernetes Application Developer (CKAD) - 2025</li>
-                  <li>Google Associate Cloud Engineer - 2024</li>
-                </ul>
-              </section>
+              <h3>Experience</h3>
+              <p>
+                <strong>Freelance Travel Copywriter</strong><br />
+                Remote / Various Clients — 2016 – Present<br />
+                - Write destination guides, travel itineraries, hotel reviews, and seasonal features for outlets like Matador Network, Lonely Planet, and Culture Trip.<br />
+                - Produce SEO-driven content that maintains editorial quality and local nuance.<br />
+                - Conduct interviews with local experts, tour operators, and hoteliers.<br />
+                - Regularly pitch and produce original stories on slow travel, budget travel, cultural etiquette, and eco-tourism.
+              </p>
+              <p>
+                <strong>Content Marketing Specialist</strong><br />
+                WanderBright Travel Gear — Tampa, FL — 2013 – 2016<br />
+                - Led brand voice and blog content strategy for boutique travel gear brand.<br />
+                - Created email marketing campaigns and product descriptions with a storytelling angle.<br />
+                - Collaborated with influencers and photographers to generate user-driven content.
+              </p>
+              <p>
+                <strong>Copywriter & Editorial Assistant</strong><br />
+                Vibe Creative Co. — Asheville, NC — 2010 – 2013<br />
+                - Wrote blog content, web copy, and branded articles for lifestyle and hospitality clients.<br />
+                - Proofread and edited digital content for tone, accuracy, and structure.<br />
+                - Supported the editorial team with client reports, topic ideation, and keyword research.
+              </p>
+
+              <h3>Education</h3>
+              <p>
+                <strong>B.A. in English & Communication</strong><br />
+                University of North Carolina at Greensboro — Graduated 2009
+              </p>
+
+              <h3>Skills</h3>
+              <p>
+                Travel storytelling, SEO copywriting, WordPress & CMS platforms, 
+                Google Analytics & Search Console, Cultural research & sourcing, 
+                AP & in-house style guides
+              </p>
+
+              <h3>Additional Activities</h3>
+              <p>
+                Volunteer Contributor, JourneyWoman.com<br />
+                Member, Travel Media Association of North America (TMANA)
+              </p>
             </div>
 
             <div className="mt-12 text-center">
               <Button asChild className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 text-lg">
-                <a href="/Laura_Cotto_Resume.pdf" download="Laura_Cotto_Resume.pdf" aria-label="Download Resume PDF">
+                <a 
+                  href="/laura.docx" 
+                  download="laura.docx" 
+                  aria-label="Download Resume DOCX"
+                >
                   <Download className="w-5 h-5 mr-2" />
-                  Download Full Resume (PDF)
+                  Download Full Resume (DOCX)
                 </a>
               </Button>
             </div>
