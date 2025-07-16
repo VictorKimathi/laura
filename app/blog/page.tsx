@@ -7,36 +7,36 @@ import { BookOpen, MapPin, Lightbulb } from "lucide-react"
 
 const blogCategories = [
   {
-    id: "travel-stories",
-    title: "Travel Stories",
-    description: "Immersive narratives from my journeys around the world, celebrating cultures and experiences.",
-    image: "/flower.jpg?height=400&width=600",
-    alt: "Open travel journal with a pen and a map, symbolizing storytelling",
-    icon: <BookOpen className="w-6 h-6 text-amber-600" />,
-  },
-  {
-    id: "cultural-guides",
-    title: "Cultural Guides",
-    description: "Deep dives into local traditions, customs, and etiquette for a richer travel experience.",
-    image: "/flower.jpg?height=400&width=600",
-    alt: "Traditional cultural artifacts from various regions",
+    id: "destination-guides",
+    title: "Destination Guides",
+    description: "In-depth travel itineraries and local insights crafted from years of global writing experience.",
+    image: "/images/destination.jpg",
+    alt: "Scenic view of a travel destination",
     icon: <MapPin className="w-6 h-6 text-amber-600" />,
   },
   {
-    id: "travel-tips",
-    title: "Travel Tips & Advice",
-    description: "Practical advice, packing lists, and insights for planning your next sustainable adventure.",
-    image: "/flower.jpg?height=400&width=600",
-    alt: "Travel essentials like a passport, camera, and map on a wooden table",
+    id: "cultural-etiquette",
+    title: "Cultural Etiquette",
+    description: "Guides to navigating customs and traditions, ensuring respectful and enriching travels.",
+    image: "/images/culture.jpg",
+    alt: "Local cultural celebration",
     icon: <Lightbulb className="w-6 h-6 text-amber-600" />,
   },
   {
-    id: "behind-the-scenes",
-    title: "Behind the Scenes",
-    description: "A look into the life of a travel writer and photographer, from challenges to triumphs.",
-    image: "/flower.jpg?height=400&width=600",
-    alt: "Camera gear and a laptop on a desk, representing creative work",
-    icon: <Lightbulb className="w-6 h-6 text-amber-600" />, // Reusing Lightbulb for now
+    id: "travel-marketing",
+    title: "Travel & Hospitality Marketing",
+    description: "Insights on brand storytelling, SEO strategies, and content marketing for travel businesses.",
+    image: "/images/marketing.jpg",
+    alt: "Creative marketing workspace",
+    icon: <BookOpen className="w-6 h-6 text-amber-600" />,
+  },
+  {
+    id: "eco-budget-travel",
+    title: "Eco & Budget Travel",
+    description: "Tips for sustainable, budget-friendly adventures inspired by slow travel philosophies.",
+    image: "/images/eco.jpg",
+    alt: "Eco-friendly travel gear",
+    icon: <Lightbulb className="w-6 h-6 text-amber-600" />,
   },
 ]
 
@@ -51,10 +51,11 @@ export default function BlogPage() {
 
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <h1 className="font-serif text-4xl md:text-6xl text-gray-800 mb-6">Blog & Insights</h1>
+            <h1 className="font-serif text-4xl md:text-6xl text-gray-800 mb-6">Laura Michelle Cotto Blog</h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              Explore cultural guides, practical travel tips, and behind-the-scenes stories from my adventures around
-              the globe.
+              Explore professional insights drawn from 10+ years in travel copywriting, cultural research,
+              and hospitality marketing. 
+              Discover destination stories, sustainable travel advice, and tips for growing your travel brand.
             </p>
           </div>
 
@@ -65,7 +66,7 @@ export default function BlogPage() {
                 <article className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 group-hover:transform group-hover:scale-105">
                   <div className="aspect-[4/3] relative overflow-hidden">
                     <Image
-                      src={category.image || "/flower.jpg"}
+                      src={category.image}
                       alt={category.alt}
                       fill
                       className="object-cover transition-transform duration-300 group-hover:scale-110"
