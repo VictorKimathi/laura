@@ -19,9 +19,7 @@ export default function ContactPage() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    // Handle form submission (e.g., send to an API endpoint or email service)
     console.log("Contact form submitted:", formData)
-    // Reset form
     setFormData({ name: "", email: "", project: "" })
     alert("Thank you for your message! I'll get back to you soon.")
   }
@@ -45,8 +43,7 @@ export default function ContactPage() {
           <div className="text-center mb-16">
             <h1 className="font-serif text-4xl md:text-6xl text-gray-800 mb-6">Get in Touch</h1>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              I'd love to hear about your project, collaboration ideas, or simply connect over a shared passion for
-              travel and storytelling.
+              I'd love to hear about your project, collaboration ideas, or simply connect over consulting opportunities.
             </p>
           </div>
 
@@ -57,17 +54,20 @@ export default function ContactPage() {
               <div className="space-y-6 text-gray-600 text-lg">
                 <div className="flex items-center">
                   <Mail className="w-6 h-6 text-amber-600 mr-4 flex-shrink-0" />
-                  <a href="mailto:hello@lauramichellecotto.com" className="hover:underline">
-                    hello@lauramichellecotto.com
+                  <a href="mailto:laura87michelle@gmail.com" className="hover:underline">
+                    laura87michelle@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center">
                   <Phone className="w-6 h-6 text-amber-600 mr-4 flex-shrink-0" />
-                  <span>+1 (555) 123-4567</span> {/* Placeholder phone number */}
+                  <span>(206) 249-9023</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="w-6 h-6 text-amber-600 mr-4 flex-shrink-0 mt-1" />
-                  <span>Based in New York, NY, available for global projects</span>
+                  <span>
+                    6926 Kimberly Heights Ln.<br />
+                    Jacksonville, FL 32222-1761
+                  </span>
                 </div>
               </div>
               <p className="text-gray-600 mt-8 leading-relaxed">
