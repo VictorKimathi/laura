@@ -7,36 +7,28 @@ import { BookOpen, MapPin, Lightbulb } from "lucide-react"
 
 const blogCategories = [
   {
-    id: "destination-guides",
-    title: "Destination Guides",
-    description: "In-depth travel itineraries and local insights crafted from years of global writing experience.",
+    id: "Family Travel",
+    title: "Why Würzburg Should Be Every Family’s Next Europe Stop",
+    description: "Families planning a European vacation often dream of Paris, Rome or London. But tucked away in Germany’s picturesque Franconia region lies a lesser-known gem that’s perfect for parents and kids alike: Würzburg. Packed with history, wine country charm and walkable adventures, it’s a storybook city that deserves a spot on your family itinerary.",
     image: "/images/destination.jpg",
-    alt: "Scenic view of a travel destination",
     icon: <MapPin className="w-6 h-6 text-amber-600" />,
+    href: 'Why_Würzburg_Should_Be_Every_Family’s_Next_Europe_Stop.pdf'
   },
   {
-    id: "cultural-etiquette",
-    title: "Cultural Etiquette",
-    description: "Guides to navigating customs and traditions, ensuring respectful and enriching travels.",
+    id: "Travel Tips",
+    title: "How Savvy Travelers Score Airline Upgrades for Almost Free",
+    description: "Airline upgrades aren’t just for the elite. With a few clever strategies, seasoned travelers are snagging extra legroom, lounge access and sometimes even full-blown business class – without breaking the bank. Here’s how to travel smart, not spendy and raise your in-flight experience.",
     image: "/images/culture.jpg",
-    alt: "Local cultural celebration",
     icon: <Lightbulb className="w-6 h-6 text-amber-600" />,
+    href: 'How_Savvy_Travelers_Score_Airline_Upgrades_for_Almost_Free.pdf'
   },
   {
-    id: "travel-marketing",
-    title: "Travel & Hospitality Marketing",
-    description: "Insights on brand storytelling, SEO strategies, and content marketing for travel businesses.",
+    id: "U.S Destinations",
+    title: "10 U.S. Coastal Towns That Feel Straight Out Of The Mediterranean",
+    description: "Sun-drenched terraces. Whitewashed cottages. Oceanfront promenades edged with bougainvillea. You’d be forgiven for thinking you’re in Positano or Mykonos – but these dreamy destinations are right here in the United States. Across California, Florida, the Carolinas and beyond, coastal towns are channeling the old-world charm of the Mediterranean. Think terracotta rooftops, blue-domed churches, cliffside trails and culinary traditions rooted in fresh seafood and sun-grown herbs.",
     image: "/images/marketing.jpg",
-    alt: "Creative marketing workspace",
     icon: <BookOpen className="w-6 h-6 text-amber-600" />,
-  },
-  {
-    id: "eco-budget-travel",
-    title: "Eco & Budget Travel",
-    description: "Tips for sustainable, budget-friendly adventures inspired by slow travel philosophies.",
-    image: "/images/eco.jpg",
-    alt: "Eco-friendly travel gear",
-    icon: <Lightbulb className="w-6 h-6 text-amber-600" />,
+    href: '10_U.S._Coastal_Towns_That_Feel_Straight_Out_Of_The_Mediterranean.pdf'
   },
 ]
 
